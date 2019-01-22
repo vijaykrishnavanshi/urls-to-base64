@@ -1,0 +1,24 @@
+{
+  "name": "url-to-base64",
+  "version": "1.0.0",
+  "description": "This package converts file dowloadable from URL to base64 directly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaykrishnavanshi/url-to-base64.git"
+  },
+  "keywords": [
+    "Base64",
+    "URL",
+    "conversion"
+  ],
+  "author": "Vijay Krishnavanshi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vijaykrishnavanshi/url-to-base64/issues"
+  },
+  "homepage": "https://github.com/vijaykrishnavanshi/url-to-base64#readme"
+}
