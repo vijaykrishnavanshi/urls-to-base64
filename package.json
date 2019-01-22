@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vijaykrishnavanshi/url-to-base64/issues"
   },
-  "homepage": "https://github.com/vijaykrishnavanshi/url-to-base64#readme"
+  "homepage": "https://github.com/vijaykrishnavanshi/url-to-base64#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
