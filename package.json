@@ -1,5 +1,5 @@
 {
-  "name": "url-to-base64",
+  "name": "urls-to-base64",
   "version": "1.0.0",
   "description": "This package converts file dowloadable from URL to base64 directly",
   "main": "index.js",
