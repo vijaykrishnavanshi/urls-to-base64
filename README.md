@@ -1,4 +1,4 @@
-# url-to-base64
+# urls-to-base64
 
 This is a very simple package with functionality of converting the file dowloaded from url to base64. This abstracts the complexity of actually parsing the reponse in chunks before converting them in to one base64 encoded string.
 
@@ -6,11 +6,11 @@ This is a very simple package with functionality of converting the file dowloade
 
 First, install the package using npm:
 
-    npm install url-to-base64 --save
+    npm install urls-to-base64 --save
 
 Then, require the package and use it like so:
 
-    const urlToBase64 = require('url-to-base64');
+    const urlToBase64 = require('urls-to-base64');
     urlToBase64.convertOnlineHostedFileToBase64("<some-url>", <file-type>)
     <file-type> this is available in urlToBase64.types
 
