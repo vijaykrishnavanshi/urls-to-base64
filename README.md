@@ -12,7 +12,7 @@ Then, require the package and use it like so:
 
     const urlToBase64 = require('urls-to-base64');
     urlToBase64.convertOnlineHostedFileToBase64("<some-url>", <file-type>)
-    <file-type> this is available in urlToBase64.types
+    <file-type> this is available in urlToBase64.Types
 
 ## License
 
