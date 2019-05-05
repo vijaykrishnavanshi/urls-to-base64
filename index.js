@@ -1,8 +1,8 @@
 const request = require('request');
-const types = require('./types');
+const Types = require('./types');
 // Function Definition
 const convertOnlineHostedFileToBase64 = (url, type) => {
-    if (types.values.indexOf(type) > -1) {
+    if (Object.keys(Types).indexOf(type) > -1) {
         throw new error("Not supported type");
     }
     return new Promise((resolve, reject) => {
@@ -11,7 +11,7 @@ const convertOnlineHostedFileToBase64 = (url, type) => {
             method: "GET",
             encoding: null,
             headers: {
-                "Content-type": types[type],
+                "Content-type": Types[type],
             }
         };
         request(optionsStart, (error, response, body) => {
@@ -29,5 +29,5 @@ const convertOnlineHostedFileToBase64 = (url, type) => {
 // Make the main function available to other packages that require this package
 module.exports = {
     convertOnlineHostedFileToBase64,
-    types,
+    Types,
 };

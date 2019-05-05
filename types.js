@@ -1,8 +1,5 @@
-const PDF = 'pdf';
-
-const types = {
-    [PDF]: "application/pdf",
-    values: [PDF],
+const Types = {
+    PDF: "application/pdf",
 };
 
-module.exports = types;
+module.exports = Types;
